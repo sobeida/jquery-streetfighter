@@ -5,11 +5,20 @@ body {
 .main {
     background-color: white;
     margin-top: 110px;
+    margin-top: 30px;
     padding-left: 100px;
     min-width: 1200px;
     height: 500px;
     position: relative;
     z-index: 1;
+}
+
+.title h1 {
+    font-family: 'Cinzel', serif;
+    margin: 20px auto 0 auto;
+    color: white;
+    text-align: center;
+    padding: 6px;
 }
 
 .ryu {
@@ -64,4 +73,36 @@ body {
     left: -212px;
     z-index: 10;
     background-size: 50%;
+}
+
+.instructions {
+    position: absolute;
+    left: 650px;
+    height: 350px;
+    width: 400px;
+    /*  height: 425px;
+    width: 600px; */
+    padding-top: 75px;
+}
+
+.how-to {
+    background-color: floralwhite;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: left;
+    color: black;
+}
+
+.how-to p {
+    width: 50%;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 50px;
+}
+
+.how-to p:last-child {
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 50px;
+    /* margin-left: 275px; */
 }
